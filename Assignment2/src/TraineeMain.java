@@ -28,12 +28,12 @@ public class TraineeMain {
 		
 		
 		 for (Trainee trainee : traineeMap.values()) {
-	            Trainee typeTrainee = (Trainee) trainee;
-	            boolean iscse = typeTrainee instanceof CsTrainee;
+	         
+	            boolean iscse = trainee instanceof CsTrainee;
 	            if (iscse) {
-	                csTraineeSet.add((CsTrainee) typeTrainee);
+	                csTraineeSet.add((CsTrainee) trainee);
 	            } else {
-	                ecTraineeSet.add((EcTrainee) typeTrainee);
+	                ecTraineeSet.add((EcTrainee) trainee);
 	            }
 	        }
 		 
