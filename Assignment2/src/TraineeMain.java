@@ -26,6 +26,10 @@ public class TraineeMain {
 		traineeMap.put(3, trainee3);
 		traineeMap.put(4, trainee4);
 		
+		display();
+	}
+		
+		public void display() {
 		
 		 for (Trainee trainee : traineeMap.values()) {
 	         
